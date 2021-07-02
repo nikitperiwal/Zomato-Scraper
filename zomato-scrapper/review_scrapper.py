@@ -26,12 +26,12 @@ def clean_reviews(html_text):
     return data
 
 
-def save_df(name, df):
+def save_df(file_name, df):
     """ Save the dataframe """
     
     if not os.path.exists("Reviews"):
         os.makedirs("Reviews")
-    df.to_csv(f"Reviews/{name}.csv", index=False)
+    df.to_csv(f"Reviews/{file_name}.csv", index=False)
 
 
 def get_reviews(url, max_reviews, sort='popular', save=True):
