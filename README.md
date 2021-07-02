@@ -1,23 +1,23 @@
 # Zomato-Scrapper
-A script that can scrape top anime list, their details, reviews and user recommendations from MyAnimeList.net
+A script that can scrape Restaurant information, menu items, and reviews using the restaurant link.
 
-### MAL
-MyAnimeList often abbreviated as MAL, is an anime and manga social networking and social cataloging application website. The site provides its users with a list-like system to organize and score anime and manga. It facilitates finding users who share similar tastes and provides a large database of anime and manga.
+### Zomato
 
-MAL stores information about over 17.5k anime and manga and has a vibrant community passionate about the same. It has multiple reviews and ranking for anime and is the go-to for Otakus worldwide for anime information.
+Zomato (/zoʊmɑːtoʊ/) is an Indian multinational restaurant aggregator and food delivery company founded by Pankaj Chaddah and Deepinder Goyal in 2008.
+
+Zomato provides information, menus and user-reviews of restaurants as well as food delivery options from partner restaurants in select cities. 
+The service is available in over 24 countries and in more than 10,000 cities. 
 
 ### Details of the Scraped data
-This scraped dataset contains many different data attributes of the anime, such as:
+This scraped dataset contains many attributes of the restaurant, such as:
 
-- Score, Popularity, and No. of followers, members of the Anime in MAL.
-- Current Status (still airing or finished), Episodes aired, Airing date, Duration of each episode.
-- Producers, Studio, Licensors of the anime.
-- Genre, Rating, Type of anime.
-- Summary of the anime.
-- Reviews with ratings on different criteria.
-- Recommendations of anime from users if you've watched a specific anime.
+- Name, Weblink, Open Hours, Address, Phone no, Price Range, Cuisine type.
+- The Rating, Number of Ratings.
+- Reviews - You can specify the max number of reviews to scrape for.
+- Menu items - Description, Price and Tags.
 
 ### Ideas on how to use the data
-- To provide further information in regards to the aspects that make an anime successful from a user or profit perspective, and it can be analyzed to understand how to improve the popularity of an anime.
-- The Review data can be used to build a classification or sentiment analysis algorithm.
-- The Recommendation data can be used to make a recommender model for anime.
+- The Information can be used to form a catalogue of all restaurant in a given area.
+- Create Geographical maps with the most famous cusine in a geo-location.
+- The Menu items can be analysed to find which items are popular and gain insights to help to manage a restaurant.
+- The Review data can be used to build a classification or sentiment-analysis algorithm.
