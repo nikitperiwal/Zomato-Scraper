@@ -1,6 +1,6 @@
-from info_scrapper import get_restaurant_info
-from review_scrapper import get_reviews
-from menu_scrapper import get_menu
+from info_scraper import get_restaurant_info
+from review_scraper import get_reviews
+from menu_scraper import get_menu
 
 
 def scrape_all_data(url_list):
