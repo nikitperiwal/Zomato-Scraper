@@ -1,4 +1,4 @@
-# Zomato-Scrapper
+# Zomato-Scraper
 A script that can scrape Restaurant information, menu items, and reviews using the restaurant link.
 
 ### Zomato
